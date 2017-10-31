@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="homelayout" template="/WEB-INF/jsp/layout/Layout.jsp">
+        <put-attribute name="header" value="/WEB-INF/jsp/common/Header.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/common/Footer.jsp" />
+    </definition>
+    
+    <definition name="userlayout" template="/WEB-INF/jsp/layout/UserLayout.jsp">
+        <put-attribute name="header" value="/WEB-INF/jsp/common/UserHeader.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/common/Footer.jsp" />
+    </definition>
+
+     <definition name="ownerlayout" template="/WEB-INF/jsp/layout/OwnerLayout.jsp">
+        <put-attribute name="header" value="/WEB-INF/jsp/common/OwnerHeader.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/common/Footer.jsp" />
+    </definition>
+    
+    <definition name="adminlayout" template="/WEB-INF/jsp/layout/AdminLayout.jsp">
+        <put-attribute name="header" value="/WEB-INF/jsp/common/AdminHeader.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/jsp/common/AdminFooter.jsp" />
+    </definition>
+    
+    
+    <!-- Start USER Tiles Details -->
+      
+     
+     <definition name="homepage" extends="homelayout">
+        <put-attribute name="body" value="/WEB-INF/jsp/view/Home.jsp" />
+     </definition>
+     
+     
+</tiles-definitions>

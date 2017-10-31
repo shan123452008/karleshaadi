@@ -1,0 +1,176 @@
+
+@media(max-width:1680px){
+	
+}
+@media(max-width:1280px){
+	
+}
+@media(max-width:1366px){
+	
+}
+@media(max-width:1024px){	
+	.sginup_box {
+		width: 40% !important;		
+	}
+	.logo_section{
+		padding: 17px 0px 6px !important;
+	}
+	.banner_content{
+		width: 90% !important;		
+		padding: 31px !important;
+	}
+	.banner{height:330px !important;}	
+	.login_column1 {		
+		padding: 5px 30px 0px !important;	
+		margin-top: 40px !important;
+	}
+	.container1{width:95% !important}
+	.eventlocation{margin-right:7px;}
+	.social_links {
+		width: 91% !important;
+	}
+	.available_ticket{
+		width:80% !important;
+	}
+	.imgdiv {
+		width: 37% !important;
+	}
+	.tickedid {
+		width: 100% !important;
+	}
+}
+	
+	
+@media(max-width:768px){
+	
+	.menuIcon {
+		float: right;
+		width: 6%;
+		padding-top: 2%;
+		cursor: pointer;	
+		display:block;		
+	}
+	.createEvent_section{width:100% !important}
+	.filecontainer {		
+		top: 126px !important;
+	}
+	.header {
+		width: 100%;
+		border-bottom: 2px solid #3a3a3b;
+		height:auto;		
+		position: relative;		
+		//overflow:auto;
+	}
+	.headermenulist li {
+		display: block;
+		padding-right: 35px;
+		padding: 4px;
+		border-bottom: 1px solid;
+	}
+	.headermenulist {
+		float: left;
+		margin: 0px;
+		text-align:left;		
+		width: 100%;
+		padding-left: 0px;
+	}
+	.headermenu {
+		float: none;
+		width: 100%;
+		position: relative;
+		top: 82%;
+		display:none;
+	}
+	.logo_section {
+		float: left;
+		width: 20%;
+		text-align:left;		
+		color: #fff;
+		padding-top: 11px;
+	}	
+	.headermenulist {		
+		margin: 0px 0px;
+		background-color: #d81b22;
+	}
+	.container1 {
+		width: 96% !important;
+		margin: 0px auto !important;
+	}
+	.login_column1 {
+		padding: 15px 20px 0px !important;
+		margin-top: 40px !important;
+		width: 100% !important;
+		margin-right:0px !Important;
+		min-height: 443px !important;
+	}
+	.login_row{
+		margin-bottom: 15px !important;
+	}
+	.login_row input[type="submit"]{
+		margin:10px 0px 0px 0px !important;
+	}	
+	.hide_seprator{
+		display:none !Important;
+	}
+}
+@media(max-width:640px){	
+	.menuIcon{
+		width: 7%;
+		padding-top: 13px;
+	}
+	.signup_box{
+		width:100% !important;
+	}
+	.filecontainer{
+		position:initial !important;
+	}
+	.eventlocation{width:100% !important}
+	.social_links {
+		width: 89% !important;
+	}
+	.column2,.column1{
+		margin:0px !important;
+		width:100%;
+	}
+	.imgdiv {
+		width: 100% !important;
+	}
+
+}
+@media(max-width:480px){
+	.sginup_box {
+		width: 58% !important;
+	}
+	
+	.logo_section {
+		width: 27% !important; 
+	}
+	.signupbtn {    
+		padding: 8px 12px !important;
+		margin: 21px 0px 10px !important;		
+	}
+	.formElement{
+		width:100% !important;
+	}
+	.available_ticket {
+		width: 100% !important;
+	}
+}
+@media(max-width:320px){	
+	.menuIcon {
+		width: 11%;
+		padding-top: 18px;
+	}	
+	.signupbtn {    
+		padding: 5px 4px !important;
+		margin: 21px 0px 10px !important;
+		font-size: 13px !important;		
+	}
+	.sginup_box {
+		width: 69% !important;
+	}
+	.logo_section {
+		width: 30% !important;
+	}	
+	.signup_box{padding:10px !important;}
+}
